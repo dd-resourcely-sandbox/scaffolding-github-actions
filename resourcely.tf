@@ -12,7 +12,7 @@ resource "terraform_data" "resourcely_context_answers" {
           "resource.aws_security_group.test_u2VrZYmt2eUxaZnL_0",
           "data.aws_ami.test_u2VrZYmt2eUxaZnL"
         ],
-        "business_reason" : "Some service"
+        "business_reason" : "New reason"
       }
     ]
   }

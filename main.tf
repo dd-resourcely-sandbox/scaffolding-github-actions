@@ -59,7 +59,7 @@ data "aws_ami" "skedida-instance-1_SM78z4n9M7Lk2ncR" {
 
 resource "aws_instance" "test_u2VrZYmt2eUxaZnL" {
   ami                    = data.aws_ami.test_u2VrZYmt2eUxaZnL.id
-  instance_type          = "a1.4xlarge"
+  instance_type          = "c3.xlarge"
   key_name               = "test_u2VrZYmt2eUxaZnL"
   vpc_security_group_ids = [aws_security_group.test_u2VrZYmt2eUxaZnL_0.id]
 
